@@ -1,0 +1,24 @@
+{
+  "name": "iptempletelegrambot",
+  "version": "1.0.0",
+  "description": "Bot used for notifications of ipTemple new messages",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Valgueiro/ipTempleTelegramBot.git"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "chatbot"
+  ],
+  "author": "Mateus Valgueiro",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Valgueiro/ipTempleTelegramBot/issues"
+  },
+  "homepage": "https://github.com/Valgueiro/ipTempleTelegramBot#readme"
+}
