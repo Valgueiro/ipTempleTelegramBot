@@ -4,7 +4,8 @@
   "description": "Bot used for notifications of ipTemple new messages",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "node src/app.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/Valgueiro/ipTempleTelegramBot/issues"
   },
-  "homepage": "https://github.com/Valgueiro/ipTempleTelegramBot#readme"
+  "homepage": "https://github.com/Valgueiro/ipTempleTelegramBot#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "node-telegram-bot-api": "^0.30.0"
+  }
 }
