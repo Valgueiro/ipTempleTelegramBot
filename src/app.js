@@ -44,8 +44,8 @@ app.post('/notify', function (req, res) {
     res.send("Received");
 })
 
-// Tell our app to listen on port 3000
-app.listen(3000, function (err) {
+// Tell our app to listen on port of heroku
+app.listen(process.env.PORT || 3000, function (err) {
     if (err) {
         throw err
     }
