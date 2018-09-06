@@ -2,7 +2,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const express = require('express')
 const bodyParser = require('body-parser')
 const token = '661569390:AAFlEN-kwORqumIGg16KwiFab7C4n5bwTKY';
-const bot = new TelegramBot(token, { polling: true });
+const bot = new TelegramBot(token, { webHook: true });
 
 // Create a new instance of express
 const app = express()
